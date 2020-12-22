@@ -4,6 +4,7 @@ RUN apt update && apt-get install -y \
     libcurl4-gnutls-dev \
     xdg-utils \
     libxml2-dev \
+    libgit2-dev \
     libssl-dev \
     default-jre \
     default-jdk \
