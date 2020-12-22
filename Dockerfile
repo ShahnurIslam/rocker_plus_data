@@ -14,4 +14,4 @@ RUN R CMD javareconf
 
 
 #install and load necessary packages
-RUN R -e "install.packages(c('bigrquery','DBI','devtools), repos = 'http://cran.uk.r-project.org')"
+RUN R -e "install.packages(c('bigrquery','DBI','devtools'), repos = 'http://cran.uk.r-project.org')"
