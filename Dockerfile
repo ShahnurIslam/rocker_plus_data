@@ -11,3 +11,7 @@ RUN apt update && apt-get install -y \
     r-cran-rjava
 
 RUN R CMD javareconf
+
+
+#install and load necessary packages
+RUN R -e "install.packages(c('bigrquery','DBI'), repos = 'http://cran.uk.r-project.org')"
